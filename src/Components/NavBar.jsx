@@ -23,7 +23,7 @@ function NavLg() {
           <div className=" h-1/2 w-5/12 bg-white mt-4 rounded flex items-center gap-3 ml-8">
             <BsSearch className="text-slate-600 ml-3" />
             <input
-              className="w-full h-1/2 "
+              className="w-full focus:outline-none h-1/2 "
               type="search"
               placeholder="Search for Movies,Events,Plays,Sports and Activies"
             />
@@ -80,7 +80,7 @@ function NavMd() {
         <div className=" h-1/2 w-1/2 mr-5 bg-white mt-4 rounded flex items-center gap-3 ml-5 ">
           <BsSearch className="text-slate-600 ml-3" />
           <input
-            className="w-full h-1/2 "
+            className="w-full focus:outline-none h-1/2 "
             type="search"
             placeholder="Search for Movies,Events,Plays,Sports and Activies"
           />
