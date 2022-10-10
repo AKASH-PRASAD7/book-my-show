@@ -70,7 +70,6 @@ const HomePage = () => {
       </div>
 
       <div className="Container my-3  mx-8 p-4">
-        Best Of Entertainment
         <Cardentertainment />
       </div>
 
