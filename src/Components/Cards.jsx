@@ -38,13 +38,17 @@ const Cards = (props) => {
     <>
       <div className={`h-96  ${props.isDark ? "bg-premier-800" : ""}`}>
         <h1
-          className={`text-lg mx-2 md:mx-4 font-bold ${
+          className={`text-2xl mx-2 md:mx-4 font-bold ${
             props.isDark ? "text-white" : "text-gray-700"
           }`}
         >
           {props.title}
         </h1>
-        <h1 className={` mx-2 md:mx-4 ${props.isDark ? "text-white" : "text-gray-500"}`}>
+        <h1
+          className={` mx-2  md:mx-4 ${
+            props.isDark ? "text-white" : "text-gray-500"
+          }`}
+        >
           {props.subject}
         </h1>
         <Slider {...settings}>

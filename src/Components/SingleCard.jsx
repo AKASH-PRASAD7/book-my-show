@@ -22,7 +22,7 @@ const SingleCard = (props) => {
           />
         </div>
         <h2
-          className={` mx-2  md:mx-4 ${
+          className={` mx-2 text-lg md:mx-4 ${
             props.dark ? "text-white" : "text-gray-800"
           }`}
         >
