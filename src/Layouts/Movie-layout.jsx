@@ -1,14 +1,17 @@
-import React from 'react';
-import MovieNavBar from '../Components/MovieNavBar';
+import React from "react";
+import MovieNavBar from "../Components/MovieNavBar";
+import Footer from "../Components/Footer";
 
-const Movielayout = (Component) => (...props) => {
+const Movielayout =
+  (Component) =>
+  (...props) => {
     return (
-        <div>
-            <MovieNavBar />
-            <Component {...props} />
-            <div>Footer</div>
-        </div>
-    )
-}
+      <div>
+        <MovieNavBar />
+        <Component {...props} />
+        <Footer />
+      </div>
+    );
+  };
 
 export default Movielayout;
