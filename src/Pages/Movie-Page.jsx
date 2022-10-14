@@ -7,7 +7,7 @@ import { FaCcVisa, FaCcApplePay } from "react-icons/fa";
 import Cards from "../Components/Cards";
 import Slider from "react-slick";
 import Cast from "../Components/Cast";
-
+import MovieHero from "../Components/MovieHero";
 const MoviePage = () => {
   const { id } = useParams();
 
@@ -125,7 +125,7 @@ const MoviePage = () => {
 
   return (
     <>
-      {/* <MovieHero /> */}
+      <MovieHero />
       <div className="my-12 container px-4 lg-ml-20 ">
         <div className="flex flex-col items-start gap-3">
           <h1 className="text-gray-800 font-bold text-2xl">About the movie</h1>
@@ -213,7 +213,7 @@ const MoviePage = () => {
         {/* recommended movies slider */}
         <Cards
           config={settings}
-          title="SIMILAR  XCLUSICE"
+          title="SIMILAR  MOVIES"
           images={similar}
           isDark={false}
         />
