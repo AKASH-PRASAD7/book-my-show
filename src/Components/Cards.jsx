@@ -52,8 +52,8 @@ const Cards = (props) => {
           {props.subject}
         </h1>
         <Slider {...settings}>
-          {props.images.map((each) => (
-            <SingleCard dark={dark} {...each} />
+          {props.images.map((each, index) => (
+            <SingleCard key={index} dark={dark} {...each} />
           ))}
         </Slider>
       </div>

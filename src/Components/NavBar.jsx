@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   BsSearch,
   BsFillCaretDownFill,
@@ -33,6 +34,12 @@ function NavLg() {
               <h2>Kolkata</h2>
               <BsFillCaretDownFill className="ml-2 mt-1" />
             </div>
+            <Link
+              to="/plays"
+              className="bg-blue-400 hover:bg-blue-500 h-8 ml-3 p-1 text-center w-20 text-white rounded"
+            >
+              Plays
+            </Link>
             <div className="flex  ml-5 mr-8 ">
               <button className="bg-red-500 hover:bg-red-600 h-8  w-20 text-white rounded">
                 Sign in

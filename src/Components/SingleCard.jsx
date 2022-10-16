@@ -18,7 +18,7 @@ const SingleCard = (props) => {
           <img
             src={`https://image.tmdb.org./t/p/original${props.poster_path}`}
             alt="shows"
-            className="w-full h-full rounded-md "
+            className="w-full h-full  rounded-md "
           />
         </div>
         <h2
