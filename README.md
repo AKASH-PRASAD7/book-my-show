@@ -1,6 +1,6 @@
 # Disney+ Front End clone made with React JS
 H! This a BookMyShow front end clone that i´ve built using ReactJS.  
-__You can visit the website clicking [here!](book-my-show-akash.vercel.app/)__
+__You can visit the website clicking [here!] https://book-my-show-akash.vercel.app/
 ##### I dont own any rights from BookMyShow as a company, this platform was made for educational purposes and to be shown as a piece of portfolio. There are not any commercial or monetary purposes.
 ## Features
 * Get all the movies.
