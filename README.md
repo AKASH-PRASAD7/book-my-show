@@ -8,9 +8,9 @@ __You can visit the website clicking [here!] https://book-my-show-akash.vercel.a
 * Get details from an specific movie, like casting, runtime, overview, director, release date etc.
 * Get a recommended list of movies depending on the movie that you´ve chosen.
 ## Installation
-* Clone the project
+* Clone the project ``git clone https://github.com/AKASH-PRASAD7/book-my-show.git``
 * Execute ``npm install`` command
-* Execute *npm start*
+* Execute ``npm start``
 * Done ;)
 ## Libraries/Technologies used
 * React JS
