@@ -9,7 +9,7 @@ __You can visit the website clicking [here!] https://book-my-show-akash.vercel.a
 * Get a recommended list of movies depending on the movie that you´ve chosen.
 ## Installation
 * Clone the project ``git clone https://github.com/AKASH-PRASAD7/book-my-show.git``
-* Execute ``npm install`` command
+* Execute ``npm install``
 * Execute ``npm start``
 * Done ;)
 ## Libraries/Technologies used
