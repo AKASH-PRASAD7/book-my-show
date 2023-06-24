@@ -9,7 +9,7 @@ __You can visit the website clicking [here!] https://book-my-show-akash.vercel.a
 * Get a recommended list of movies depending on the movie that you´ve chosen.
 ## Installation
 * Clone the project
-* Execute *npm install* command
+* Execute ``npm install`` command
 * Execute *npm start*
 * Done ;)
 ## Libraries/Technologies used
